@@ -10,7 +10,7 @@
   </ul>
   <h2>Zmazane</h2>
   <ul>
-    <li class="lineTrough" v-for="item in deletedItems" :key="`deleted-item-${item.id}`">
+    <li class="lineTrough" v-for="item in deletedItems" :key="item.id">
     {{ item.text }}
     </li>
   </ul>
